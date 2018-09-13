@@ -16,7 +16,7 @@ The PID implementation is in [PID.cpp](./src/PID.cpp). The [PID::UpdateError](./
 
 ### Describe the effect each of the P, I, D components had in your implementation.
 
-- The proportional portion of the controller tries to steer the car toward the center line (against the cross-track error). If used alone, the car overshoots the centre line and goes off road or keeps wobbling around the center line. Example video using only proportianl component [p-only.avi](./vids/p-only.avi).
+- The proportional portion of the controller tries to steer the car toward the center line (against the cross-track error). If used alone, the car overshoots the centre line and goes off road or keeps wobbling around the center line. Example video using only proportianl component [p-only.avi](./vids/p-only-.avi).
 
 - The integral portion helps to eliminate a possible steering bias in the controlled system that could prevent the error from settling to zero. If used alone, it makes the car to go in circles. In the case of the simulator, no bias is present. Example video using only integral component [i-only.avi](./vids/i-only.avi).
 
