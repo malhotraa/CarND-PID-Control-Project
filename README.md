@@ -1,3 +1,3 @@
 # CarND-Controls-PID
-Write can be found [here](./writeup.md).
+Full writeup can be found [here](./writeup.md).
 
